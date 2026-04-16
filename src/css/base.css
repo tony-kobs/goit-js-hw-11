@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
   font-family: 'Montserrat', sans-serif;
@@ -18,17 +24,7 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
-  margin: 0;
-}
-
-main {
-  flex-grow: 1;
-}
-
-main:has(.back-link) {
-  text-align: center;
+  padding: 25px 15px;
 }
